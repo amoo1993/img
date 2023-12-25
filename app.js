@@ -80,7 +80,7 @@ app.post('/send-quote', (req, res) => {
     res.render('index', { successMessage: 'The email have been sent successful' });
   });
 });
-const port = process.env.PORT || 3000;
+const port =  3000;
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
